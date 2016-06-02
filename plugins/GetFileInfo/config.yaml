@@ -1,0 +1,8 @@
+id: GetFileInfo
+name: GetFileInfo
+version: 1.0
+
+applications:
+    cms:
+        methods:
+            get_file_info: $GetFileInfo::GetFileInfo::App::_hdlr_get_file_info
